@@ -20,4 +20,15 @@ Recherche (à rédiger dans RECHERCHES.md) :
 
 // ✍️ Ton code ici 👇 (règles : const/let, ===, gabarits littéraux, fonctions fléchées, camelCase)
 
+// Version 1 : de 10 à 1
+for (let i = 10; i >= 1; i--) {
+  console.log(i);
+}
+console.log('Décollage !');
+
+// Version 2 : seulement les nombres pairs
+for (let i = 10; i >= 1; i -= 2) {
+  console.log(i);
+}
+
 
