@@ -20,4 +20,18 @@ Que renvoie -7 % 2 ? Déduis-en pourquoi il vaut mieux tester % 2 !== 0 plutôt 
 
 // ✍️ Ton code ici 👇 (règles : const/let, ===, gabarits littéraux, fonctions fléchées, camelCase)
 
+const numeroTicket = 17;
+
+const annoncerLot = (numero) => {
+  if (numero % 2 === 0) {
+    return `Ticket ${numero} : pair, tu gagnes un tote bag.`;
+  } else {
+    return `Ticket ${numero} : impair, tu gagnes un stylo.`;
+  }
+};
+
+console.log(annoncerLot(numeroTicket));
+console.log(annoncerLot(24));
+console.log(annoncerLot(0));
+
 
